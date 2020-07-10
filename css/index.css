@@ -17,11 +17,12 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	padding: 0.5%;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    border:1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -49,11 +50,23 @@ table {
 
 * {
     box-sizing: border-box;
+    border:1px solid grey;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+.h_img{
+    display:flex;
+    justify-content: center;
+}
+
+.h_img1{
+    display:flex;
+    justify-content: center;
+    width:100%;
 }
 
 h1, h2, h3, h4, h5 {
