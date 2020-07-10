@@ -17,12 +17,13 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0.5%;
+	padding: 0%;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    border:1px solid grey;
+    
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -50,7 +51,6 @@ table {
 
 * {
     box-sizing: border-box;
-    border:1px solid grey;
 }
 
 html, body {
@@ -58,25 +58,23 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-.h_img{
-    display:flex;
-    justify-content: center;
-}
-
-.h_img1{
-    display:flex;
-    justify-content: center;
-    width:100%;
-}
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    width:25%
+    
 }
 
 p {
     line-height: 1.4;
+    width:45%;
+    
+}
+
+.two{
+    line-height: 1.4;
+    width:45%;
 }
 
 .container {
@@ -84,10 +82,40 @@ p {
     margin: 0 auto;
 }
 
+.header{
+    margin-left: 9%;
+}
+
+.logo{
+    width:20%;
+}
+
+.links{
+    width: 55%;
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.h_img{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.top{
+    margin-left: 9%;
+}
+
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -96,6 +124,14 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.middle{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 .middle-content {
@@ -137,6 +173,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bot{
+    margin-left: 9%;
 }
 
 footer {
